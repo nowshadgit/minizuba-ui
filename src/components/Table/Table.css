@@ -1,0 +1,42 @@
+.table-container {
+    overflow: hidden;
+    height: 80%;
+    margin: 20px;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-row {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-right: 1px solid #ddd;
+  }
+  
+  .table-cell:last-child {
+    border-right: none;
+  }
+  
+  
+  .loading,
+.no-data {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.loading {
+  color: #007bff;
+}
